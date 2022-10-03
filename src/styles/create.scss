@@ -1,0 +1,9 @@
+@import './variables/colors.scss';
+
+.col_1 {
+  background: -webkit-linear-gradient(45deg, $light-purple, $pink) !important;
+  color: #ffffff !important;
+  height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
