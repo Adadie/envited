@@ -1,0 +1,50 @@
+@import './variables/colors.scss';
+
+* {
+  font-family: Helvetica;
+}
+main {
+  background-color: $wheat;
+  height: 100vh;
+  overflow-x: hidden;
+//   overflow-y: hidden;
+}
+
+img {
+  max-width: 440px;
+  max-height: 500px;
+  margin-right: 4rem;
+}
+div {
+  font-family: 'Helvetica';
+}
+.text {
+  &_1 {
+    color: $dark-purple;
+    font-weight: 700 !important;
+    line-height: 22px !important;
+  }
+  &_2 {
+    color: $light-purple;
+    font-weight: 700 !important;
+    background: -webkit-linear-gradient(45deg, $light-purple, $pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 30px !important;
+  }
+  &_3 {
+    color: $dark-purple;
+    font-weight: 700 !important;
+    line-height: 22px !important;
+  }
+  &_4 {
+    color: $dark-grey;
+    text-align: right;
+  }
+}
+.btn_create {
+  //   background: $pink !important;
+  background: -webkit-linear-gradient(45deg, $light-purple, $pink) !important;
+  width: 200px;
+  color: #ffffff !important;
+}
